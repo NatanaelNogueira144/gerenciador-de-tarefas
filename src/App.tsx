@@ -1,7 +1,6 @@
-import './index.css';
 import GlobalStyles from './styles/GlobalStyles';
 import MainPage from './pages/MainPage';
-import { TaskProvider } from './data/contexts/TaskContext';
+import { TaskProvider } from './contexts/TaskContext';
 import { useEffect } from 'react';
 
 export default function App() {
